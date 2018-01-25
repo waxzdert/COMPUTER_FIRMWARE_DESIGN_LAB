@@ -1,2 +1,10 @@
-# COMPUTER_FIRMWARE_DESIGN_LAB
-As the successor of “Computer Programming” and “Data Structures”, this course will train students to solve more difficult problems using C/C++ (in practice). Moreover, we hope that students studying it can establish the background for advanced course “Algorithm”.
+#  計算機韌體實驗COMPUTER FIRMWARE DESIGIN LAB.
+## [教學計畫表](http://ap09.emis.tku.edu.tw/106_2/106_2_0962.PDF)
+
+{%pdf http://ap09.emis.tku.edu.tw/106_2/106_2_0962.PDF %}
+
+開課資料：必修 2 學分
+
+
+
+
