@@ -37,6 +37,6 @@
 | 2018/06/23 | 期末測驗 | |
 | 2018/06/30 | 期末考試週 | **停課** |
 
-[**點名名單**](https://docs.google.com/spreadsheets/d/1wd3k6_fbU5xyTThqfE0MzcISlzaFlbCUqoQZEUBOmIs/edit?usp=sharing)
+[**點名紀錄**](https://docs.google.com/spreadsheets/d/1wd3k6_fbU5xyTThqfE0MzcISlzaFlbCUqoQZEUBOmIs/edit?usp=sharing)
 
 
