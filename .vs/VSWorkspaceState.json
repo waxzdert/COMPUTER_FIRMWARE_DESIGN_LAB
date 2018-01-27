@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Source"
+    "\\Source",
+    "\\Source\\Problem01",
+    "\\Source\\Problem01\\Debug",
+    "\\Source\\Problem01\\Problem01"
   ],
+  "SelectedNode": "\\Source\\Problem01\\Problem01\\P0205OUT.txt",
   "PreviewInSolutionExplorer": false
 }
