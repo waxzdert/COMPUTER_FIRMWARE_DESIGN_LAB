@@ -8,31 +8,37 @@
 using namespace std;
 void redir(void);
 
-int main(void){
+int main(void)
+{
     redir(); //redirection
-    int ans[100001]= {0};
+    int ans[100001] = {0};
     int m;
     int x, y;
     int T, n;
-    
-    for(m=1; m<=100000; m++){
+
+    for (m = 1; m <= 100000; m++)
+    {
         x = y = m;
-        while(x > 0){
+        while (x > 0)
+        {
             y += x % 10;
             x /= 10;
         }
-        if(ans[y] == 0){
+        if (ans[y] == 0)
+        {
             ans[y] = m;
         }
     }
     scanf("%d", &T);
-    while(T--){
+    while (T--)
+    {
         scanf("%d", &n);
         printf("%d\n", ans[n]);
     }
     return 0; //the end...
 }
-void redir(void){
+void redir(void)
+{
     freopen(IN, "r", stdin);
     freopen(OUT, "w", stdout);
 }

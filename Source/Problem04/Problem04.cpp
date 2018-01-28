@@ -20,7 +20,10 @@ int main(void){
     int length;
     int p, m;
     int i;
-    while(scanf("%s", s) == 1){
+    while(scanf("%s", s) == 1)
+    
+    
+    {
         length = strlen(s);
         p = m = 1;
         for(i=0; i < (double)length/2; i++){//注意轉型
