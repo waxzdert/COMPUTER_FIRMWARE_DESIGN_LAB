@@ -3,10 +3,10 @@
         "__locale": "cpp",
         "__string": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "clang-format.executable": "/Users/wudongye/node_modules/clang-format",
 }

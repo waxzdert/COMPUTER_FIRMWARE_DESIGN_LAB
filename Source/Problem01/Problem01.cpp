@@ -7,28 +7,35 @@
 using namespace std;
 void redir(void);
 
-int main(void){
+int main(void)
+{
     redir(); //redirection
     int n, count;
     long long nLong;
 
-    while(scanf("%d", &n) == 1){
+    while (scanf("%d", &n) == 1)
+    {
         nLong = n; //promotion rule
         count = 0;
-            while(nLong > 1){
-                ++count;
-                if(nLong % 2 == 1){
-                    nLong = nLong*3 + 1;
-                }else{
-                    nLong /= 2;
-                }
+        while (nLong > 1)
+        {
+            ++count;
+            if (nLong % 2 == 1)
+            {
+                nLong = nLong * 3 + 1;
             }
+            else
+            {
+                nLong /= 2;
+            }
+        }
         printf("%d\n", count);
     }
-    return 0; 
+    return 0;
 }
 
-void redir(void){
-freopen(IN, "r", stdin);
-freopen(OUT, "w", stdout);
+void redir(void)
+{
+    freopen(IN, "r", stdin);
+    freopen(OUT, "w", stdout);
 }

@@ -1,13 +1,10 @@
 //[追蹤試算表中的儲存格/Spreadsheet Tracking]
-#define IN "P0407IN.txt"
-#define OUT "P0407OUT.txt"
-
+#define IN "/Users/wudongye/Documents/GitHub/COMPUTER_FIRMWARE_DESIGN_LAB/Input/P0407IN.txt"
+#define OUT "/Users/wudongye/Documents/GitHub/COMPUTER_FIRMWARE_DESIGN_LAB/Output/P0407OUT.txt"
 #include <iostream>
 #include <time.h>
-
 using namespace std;
 void redir(void);
-
 struct command
 {
     char c[3]; //"EX", "DC", "DR", "IC", "IR"
@@ -17,12 +14,9 @@ struct command
 } cmd[1000];
 int r, c, n;
 int simulate(int *r0, int *c0); //操作指令
-//***************************************
 int main(void)
 {
     redir(); //redirection
-    //***************************************
-    /* Work Space*/
     int i, j;
     int kase = 0;
     int q;

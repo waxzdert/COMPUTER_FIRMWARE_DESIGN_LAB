@@ -8,23 +8,29 @@
 using namespace std;
 void redir(void);
 
-int main(void){
+int main(void)
+{
     redir(); //redirection
 
     char c;
     int flag = 1; //1 for left, 0 for right
-    while((c = getchar()) != EOF){
-        if(c == '"'){
+    while ((c = getchar()) != EOF)
+    {
+        if (c == '"')
+        {
             printf("%s", flag ? "``" : "''");
             flag = !flag;
-        }else{
+        }
+        else
+        {
             printf("%c", c);
         }
     }
     return 0; //the end...
 }
 
-void redir(void){
+void redir(void)
+{
     freopen(IN, "r", stdin);
     freopen(OUT, "w", stdout);
 }
